@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "User";
+    var joke = ViewData["Joke"] as JokeModel;
+}
+
+<div>
+    <h2 class="text-center text-success"> Шутка добавлена:</h2>
+
+    <p> @joke.Joke  </p>
+</div>
